@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="bkgAvatarShimmer" format="color"/>
+    <attr name="bkgDividerColor" format="color"/>
+    <attr name="bkgElevatedElement" format="color"/>
+    <attr name="bkgGeneralIcon" format="color"/>
+    <attr name="bkgMainLogo" format="color"/>
+    <attr name="bkgOpenedIndicator" format="color"/>
+    <attr name="bkgSecondaryLogo" format="color"/>
+    <attr name="bkgSideNavHeader" format="color"/>
+    <attr name="bkgScreen" format="color"/>
+    <attr name="bkgToolbar" format="color"/>
+    <attr name="bkgUnopenedIndicator" format="color"/>
+</resources>

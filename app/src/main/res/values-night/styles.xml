@@ -1,0 +1,60 @@
+<resources>
+    <style name="DarkMode" parent="Theme.MaterialComponents.NoActionBar">
+        <item name="bkgAvatarShimmer">@color/white20</item>
+        <item name="bkgDividerColor">@color/white</item>
+        <item name="bkgElevatedElement">@color/lightBlack</item>
+        <item name="bkgGeneralIcon">@color/paleBlack</item>
+        <item name="bkgMainLogo">@color/white</item>
+        <item name="bkgOpenedIndicator">@color/white</item>
+        <item name="bkgSecondaryLogo">@color/black</item>
+        <item name="bkgSideNavHeader">@color/paleBlack</item>
+        <item name="bkgScreen">@color/paleBlack</item>
+        <item name="bkgToolbar">@color/lightBlack</item>
+        <item name="bkgUnopenedIndicator">@color/yellow</item>
+        <item name="android:statusBarColor">@color/lightBlack</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+
+    <style name="HomeGeneralFABStyle" parent="Widget.MaterialComponents.FloatingActionButton">
+        <item name="android:backgroundTint">@color/superLightBlack</item>
+        <item name="tint">@color/white</item>
+        <item name="borderWidth">0dp</item>
+    </style>
+
+    <style name="HomeTitleStyle">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:fontFamily">@font/poppins_semibold</item>
+    </style>
+
+    <style name="MainContentTransactionTitle">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:fontFamily">@font/poppins_semibold</item>
+    </style>
+
+    <style name="MainContentTransactionSubTitle">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">@font/open_sans</item>
+    </style>
+
+    <style name="ToolbarTitleStyle">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:fontFamily">@font/poppins_semibold</item>
+    </style>
+
+    <style name="SideNavHeaderTitle">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:fontFamily">@font/poppins_semibold</item>
+    </style>
+
+    <style name="SideNavItemTitle">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">@font/open_sans</item>
+    </style>
+
+</resources>
