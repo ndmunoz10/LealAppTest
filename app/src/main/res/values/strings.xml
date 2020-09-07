@@ -5,4 +5,6 @@
     <string name="name_label">Name:</string>
     <string name="points_label">Points:</string>
     <string name="commerce_label">Commerce:</string>
+    <string name="undo">UNDO</string>
+    <string name="transaction_deleted">Transaction Deleted!</string>
 </resources>

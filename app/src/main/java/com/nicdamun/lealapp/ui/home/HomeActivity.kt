@@ -99,8 +99,8 @@ class HomeActivity : BaseActivity(), TransactionInteraction {
 
     private fun showUndoSnackBar(position: Int, transactionModelDeleted: TransactionModel) {
         val view = binding.root
-        val snackBar = Snackbar.make(view, "Transaction Deleted!", Snackbar.LENGTH_LONG)
-        snackBar.setAction("Undo") { undoDelete(position, transactionModelDeleted) }
+        val snackBar = Snackbar.make(view, getString(R.string.transaction_deleted), Snackbar.LENGTH_LONG)
+        snackBar.setAction(getString(R.string.undo)) { undoDelete(position, transactionModelDeleted) }
         snackBar.show()
     }
 
