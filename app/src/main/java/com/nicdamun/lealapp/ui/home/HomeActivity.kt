@@ -1,7 +1,6 @@
 package com.nicdamun.lealapp.ui.home
 
 import android.os.Bundle
-import android.widget.Toast
 import androidx.activity.viewModels
 import androidx.appcompat.app.ActionBarDrawerToggle
 import androidx.recyclerview.widget.ItemTouchHelper
@@ -116,7 +115,6 @@ class HomeActivity : BaseActivity(), TransactionInteraction {
     }
 
     override fun onTransactionClicked(transactionModel: TransactionModel) {
-        Toast.makeText(this, transactionModel.createdDate, Toast.LENGTH_SHORT).show()
         viewModel.updateTransaction(transactionModel)
     }
 }
