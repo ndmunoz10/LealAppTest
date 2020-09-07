@@ -48,8 +48,8 @@ for Dependency Injection which is one of the Design Patterns that fulfill this t
 10. Shimmer from Facebook
 11. ViewModel from Jetpack
 
-## Additinal Feature
-# Try Dark Mode!
+## Additonal Feature
+### Try Dark Mode!
 
 ## Maintainers
 
